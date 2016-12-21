@@ -1,0 +1,19 @@
+net: "models/document_category_googlenet/train_val.prototxt"
+
+test_iter: 25
+test_interval: 200
+
+base_lr: 0.001
+momentum: 0.9
+weight_decay: 0.0005
+
+lr_policy: "inv"
+power: 0.75
+gamma: 0.0001
+
+display: 20
+max_iter:150000
+snapshot: 5000
+snapshot_prefix: "models/document_category_googlenet/model"
+
+solver_mode: GPU

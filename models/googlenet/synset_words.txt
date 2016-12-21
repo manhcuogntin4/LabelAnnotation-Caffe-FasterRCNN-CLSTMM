@@ -1,0 +1,3 @@
+n01440764 cni
+n01443537 passport
+n01443538 other
